@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:background="#141414"
+    tools:context=".taylorswift">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginBottom="480dp"
+        android:src="@drawable/taylor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Jack Antonoff Reveals What the Success Taylor Swift's 10-Minute 'All Too Well' Says About the Music Industry:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/merriweather_sans_italic"
+                android:text="Jack Antonoff thinks the success of Taylor Swift‘s 10-minute version of “All Too Well” teaches an important lesson about the music industry. In a new interview with Relix, the 37-year-old producer shared his thoughts on the track, which recently became the longest song to ever go No. 1 on the Billboard Hot 100. “You’ve gotta love those moments and hold them close,” he told the outlet. “My initial response was to call out everyone in the industry who told me that no one has attention spans anymore.” \n\nHe continued, “By the way, the lesson from that isn’t to go make a 10-minute song: The lesson from that is don’t f–king listen to what the industry says. I mean, it happens time and time again. Can you imagine 20 years ago, someone telling you that trap was gonna be the biggest genre at some point? It’s insane.” \n\n Jack went on to say that he’s noticed some other trends in the industry that seem to go against prevailing theories about what kind of music is popular.“It’s like there’s a thing I love that’s happening in the UK right now which has these sort of Lou Reed-esque spoken word verses with super melodic choruses that all these bands are doing. \n\nThere’s a specific artist named Self Esteem, who I love. So it’s coming hard and that’s not something you would’ve expected X amount of years ago,” he said. “Industry predictions on art is an absurd concept and it takes all the joy out of everything,” he added. “The whole excitement of art and music and live performance and record making is we have no fucking clue what’s gonna happen next.” "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

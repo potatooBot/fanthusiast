@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlack"
+    tools:context=".troy">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="550dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/troynews" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Troye Sivan's Miami Performance Was Shut Down by The City
+"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/merriweather_sans_italic"
+                android:text="Troye Sivan wears a sheer blue tank while attending the AD100 party in celebration of Art Basel Miami on Tuesday night (November 30) in Miami, Fla.\n\nThe 26-year-old singer and actor performed at the event, which was held in partnership with Lenovo Yoga and Intel.\n\n
+Before he was able to finish his set, the concert was actually shut down by the city.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+                "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" /></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/troy2"></ImageView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:fontFamily="@font/merriweather_sans_italic"
+                android:text="Troye Sivan wears a sheer blue tank while attending the AD100 party in celebration of Art Basel Miami on Tuesday night (November 30) in Miami, Fla.The 26-year-old singer and actor performed at the event, which was held in partnership with Lenovo Yoga and Intel. Before he was able to finish his set, the concert was actually shut down by the city.\n\n
+“GUYS lol wtf the city shut down the show,” he tweeted.
+“Okay so basically i played 5 songs tn and Angel baby was the LAST ONEEEE and the only one being streamed live on tiktok,” Troye continued. \n\n“But then turns out throughout the show we got a noise complaint and the city literally came and shut down our speakers during Angel Baby.”He added, “I’m sorry to anyone who woke up at a weird time to watch the stream :/// i feel fine about it and had fun until then lol but I’m sorry if it was a mess to watch from home.”
+"
+
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:rotationX="0"
+                android:src="@drawable/troy3">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

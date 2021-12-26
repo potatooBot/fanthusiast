@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlack"
+    tools:context=".weeknd">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="550dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/weeknd1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="THE WEEKND CELEBRATES 10TH ANNIVERSARY OF THURSDAY BY RELEASING MIXTAPE IN ITS ORIGINAL FORM ON ALL DIGITAL SERVICE PROVIDERS WITH MR. COLLABORATIVE CAPSULE
+"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/merriweather_sans_italic"
+                android:text="The Billboard Music Awards broadcast on Sunday night, for which there was an in-person, masked audience gathered outside at L.A. Live, was packed with high-energy and celebratory performances. But one in particular left viewers tilting their heads wondering, “How?”
+
+
+
+The Weeknd’s off-site performances throughout the past year and change have, in fact, become something of a spectacle. He performed atop the Edge -- the highest sky deck in the Western Hemisphere -- for his 2020 MTV VMAs set, and sauntered through a frenzy of fireworks for his 2020 American Music Awards gig. But his BBMAs performance was perhaps his riskiest yet, as he performed amidst a fleet of vintage cars and semi-trucks whizzing by.
+
+
+
+The Weeknd took home the top artist trophy at the Billboard Music Awards - beating out fellow nominees Drake, Juice WRLD, Pop Smoke, and Taylor Swift. The pop star capped his highly successful evening with his third acceptance speech of the night - thanking his parents, and once more, his fans. promising those in attendance that he does not “take this for granted.”\n\n The win was The Weeknd’s impressive 10th victory at this year’s ceremonies, following wins for top male artist, top Hot 100 artist, top Radio Songs artist, top RB artist, top RB male artist, top RB album (for After Hours), top Hot 100 song, top radio song and top RB song (all for “Blinding Lights”).
+"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+                "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" /></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="492dp"
+                android:src="@drawable/weekndnews"></ImageView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:fontFamily="@font/merriweather_sans_italic"
+                android:text="he Weeknd releases his much anticipated single “Take My Breath”, the first from his forthcoming album as announced in his GQ global cover story this week. The sonically-charged track exemplifies The Weeknd’s ability to consistently evolve his sound and his knack for story-telling through his music. The release is accompanied by a mesmerizing visual directed by Cliqua - Watch the video HERE. Listen to “Take My Breath” HERE.
+
+The Weeknd teased new material with an array of tweets, culminating in an austere trailer he shared this past Sunday. \n\nBy Monday morning, GQ debuted the first ever global issue in 90 years with The Weeknd as the sole cover star on all editions. In the accompanying interview with GQ, The Weeknd hinted at what listeners could anticipate with the upcoming record. \n\n\n\n\On the same day,The Weeknd revealed a snippet of “Take My Breath”, along with the release date, in an Olympics promo teaser during NBC’s Olympics Prime Time Show telecast starring Team U.S.A’s women’s track and field team.
+"
+
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

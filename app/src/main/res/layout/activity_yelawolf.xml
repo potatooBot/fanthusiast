@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlack"
+    tools:context=".yelawolf">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/yelanews" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Yelawolf’s New Series ‘Yelawolf: A Slumerican Life’ on Crackle"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/merriweather_sans_italic"
+                android:text="Yelawolf is another one of hip-hop's ever-increasing genre-blending artists. Hailing from Alabama, Yela went from being homeless to being signed with Interscope and down with Shady Records thanks in large part to his excellent 2010 mixtape Trunk Muzik. \n\n\n\nFor Complex, Yela represents the new breed of hip-hop superstars."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+                "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" /></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:src="@drawable/yelawolf2"></ImageView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:fontFamily="@font/merriweather_sans_italic"
+                android:text="With a rap career that spans more than a decade and includes collaborative work with hip-hop heavyweights like Eminem, Bun B, and Juicy J, Yelawolf has built his Slumerican brand and earned success by staying true to his core and telling it straight, no chaser. But even with his candid lyricism, there's still a lot more to learn about the Southern artist and entrepreneur. Fans get that and more with his new original series, Yelawolf: A Slumerican Life.\n\n\n
+
+The 10-part documentary series—which arrives today on Crackle in partnership with Complex Networks and Screen Media—follows the Gadsden, Alabama representative as he travels across the country to meet, experience, and appreciate the people and places that align with the Slumerican lifestyle.\n\n\n\n
+
+In the first episode of the series, Yelawolf and crew hit New Orleans, a place he describes as his favorite city. There, they make a connection with Shaky, a local who's lived his whole life near the swamps and who shows the guys what that's like.  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:rotationX="0"
+                android:src="@drawable/yelawolf3">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
