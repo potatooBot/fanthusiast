@@ -1,4 +1,5 @@
-package com.example.fan;
+package com.example.fan
+        ;
 
 import androidx.appcompat.app.AppCompatActivity;
 
